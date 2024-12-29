@@ -1,0 +1,119 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffe0f0;
+    
+    
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Main Box */
+.box-area {
+    width: 930px;
+}
+
+/* Left Box */
+.left-box {
+    background-color: #ff80ab;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Right Box */
+.right-box {
+    padding: 40px 30px 40px 40px;
+}
+
+/* Custom Placeholder */
+::placeholder {
+    font-size: 16px;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #ff4081;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #f50057;
+}
+
+.matches-list {
+    margin-top: 20px;
+}
+
+.match-card {
+    background: #f8bbd0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+/* Button hover effect */
+#addUserButton:hover, #viewMatchesButton:hover {
+    background-color: #ff4081; /* Pink color */
+    border-color: #ff4081; /* Pink border */
+    color: white; /* White text */
+}
+#addUserButton, #viewMatchesButton {
+    border: 2px solid #d3d3d3; /* Grey border */
+    background-color: #f0f0f0; /* Grey background */
+    color: #4b4b4b; /* Light black text */
+}
+
+.custom-font {
+    font-family: "Lora", serif; /* Example font */
+    font-size: 18px;                   /* Adjust font size */
+    font-weight: 600;                  /* Adjust font weight */
+    letter-spacing: 0.5px;             /* Add some spacing */
+}
+
+.custom-pink {
+    font-family: 'Playfair Display', serif;
+    color: #d81b60!important; /* Ensures pink overrides any conflicting styles */
+}
+
+#successMessage {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Adjusting the main content box position */
+.container {
+    margin-top: -90px; /* This moves the container upwards */
+}
+
+/* Alternatively, use padding adjustment */
+.container {
+    padding-top: 20px; /* This increases the top padding, if you prefer a little space */
+}
+/* Copyright section */
+
+
+/* For Small Screens */
+@media only screen and (max-width: 768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+    .left-box {
+        height: 100px;
+        overflow: hidden;
+    }
+    .right-box {
+        padding: 20px;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    font-size: 14px;
+}
