@@ -4,12 +4,12 @@ This is a Spring Boot application that facilitates matching users based on provi
 
 ![Homepage Screenshot](src/main/resources/static/images/homepage.png)
 
-Features
+## Features
 - Create User: Add a new user to the system.
 - View Matches: Retrieve and display top matches for a specific user.
 - Web Interface: Interact with the application through web pages or Postman
 
-Technologies Used
+## Technologies Used
 - Java: Programming language.
 - Spring Boot: Framework for building the application.
 - Spring MVC: Following MVC architecture.
