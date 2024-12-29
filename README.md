@@ -1,6 +1,6 @@
 Dating Suggestions Engine
 
-This is a Spring Boot application that facilitates matching users based on provided information. It includes functionalities to create users, retrieve matches, and display user data in a web-based interface.
+- This is a Spring Boot application that facilitates matching users based on provided information. It includes functionalities to create users, retrieve matches, and display user data in a web-based interface.
 
 Features
 - Create User: Add a new user to the system.
@@ -11,9 +11,7 @@ Technologies Used
 - Java: Programming language.
 - Spring Boot: Framework for building the application.
 - Spring MVC: Following MVC architecture.
-- HTML: Used for structuring web pages.
-- CSS: Used for styling and making the UI responsive.
-- JavaScript: Used for client-side interactivity, such as form validation and dynamic content rendering.
+- HTML,CSS,JAVASCRIPT: For rendering web pages.
 - Spring Data JPA: For storing user data.
 - Maven: Dependency management.
 
@@ -59,4 +57,8 @@ Content-Type: application/json
     "interests": ["Cricket ","Chess"]
 
 }
+
+
+
+
 
