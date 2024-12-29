@@ -2,7 +2,7 @@
 
 This is a Spring Boot application that facilitates matching users based on provided information. It includes functionalities to create users, retrieve matches, and display user data in a web-based interface.
 
-![Homepage Screenshot](images/homepage.png)
+![Homepage Screenshot](src/main/resources/static/images/homepage.png)
 
 Features
 - Create User: Add a new user to the system.
